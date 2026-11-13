@@ -1,0 +1,6 @@
+$kind: http-request
+name: Lista_Ususarios
+url: http://localhost:8081/api/usuarios
+method: GET
+examples: .resources/Lista_Ususarios-1.resources/examples
+order: 1000

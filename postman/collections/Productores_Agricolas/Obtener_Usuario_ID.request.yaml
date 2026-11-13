@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:8081/api/usuarios/1
+method: GET
+examples: .resources/Obtener_Usuario_ID.resources/examples
+order: 3000

@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:8081/api/usuarios
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombreUsuario\": \"pedroNuevo\",\r
+
+    \    \"correo\": \"pedro@mail.com\",\r
+
+    \    \"contrasena\": \"mi_password_secreto\",\r
+
+    \    \"telefono\": \"555-0000\"\r
+
+    }"
+examples: .resources/Crear_Usuario.resources/examples
+order: 1361

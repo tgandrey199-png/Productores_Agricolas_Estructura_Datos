@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Productores_Agricolas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Lista_Usuarios",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8081/api/usuarios"
+      }
+    },
+    {
+      "name": "Obtener_Usuario_ID",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8081/api/usuarios/1"
+      }
+    },
+    {
+      "name": "Crear_Usuario",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:8081/api/usuarios",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nombreUsuario\": \"pedroNuevo\",\n    \"correo\": \"pedro@mail.com\",\n    \"contrasena\": \"mi_password_secreto\",\n    \"telefono\": \"555-0000\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
